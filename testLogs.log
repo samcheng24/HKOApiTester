@@ -1,0 +1,29 @@
+[20201123-00:44:18 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Happy Test 1 - Current Weather Report - English
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time now: 2020-11-23T00:44:19.079
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time from response: 2020-11-23T00:02
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Happy Test 2 - Current Weather Report - Traditional Chinese
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time now: 2020-11-23T00:44:19.154
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time from response: 2020-11-23T00:02
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Happy Test 3 - Current Weather Report - Simplified Chinese
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=sc
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time now: 2020-11-23T00:44:19.168
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time from response: 2020-11-23T00:02
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Happy Test 4 - Current Weather Report - empty language
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time now: 2020-11-23T00:44:19.181
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Date Time from response: 2020-11-23T00:02
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Sad Test 1 - Current Weather Report - null dataType
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?lang=en
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Sad Test 2 - Current Weather Report - incorrect dataType
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=gibberish&lang=en
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - Running: Sad Test 3 - Current Weather Report - unsupported language
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.u.HttpClient     - HTTP Client on this URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=kr
+[20201123-00:44:19 -- INFO ] [TestNG-test=Current Weather Report Testing-1] c.s.t.ApiTest        - *********** passed **********

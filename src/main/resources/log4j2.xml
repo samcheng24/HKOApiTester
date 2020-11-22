@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="consoleAppender">
+            <PatternLayout pattern="%highlight{[%d{yyyyMMdd-HH:mm:ss} -- %-5level] [%-15t] %-20C{1.} - %msg%n}"/>
+        </Console>
+
+        <File name="fileAppender" fileName="testLogs.log">
+            <PatternLayout>
+                <Pattern>[%d{yyyyMMdd-HH:mm:ss} -- %-5level] [%-15t] %-20C{1.} - %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="consoleAppender"/>
+            <AppenderRef ref="fileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HKO Api Tester" parallel="classes" thread-count="6">
+    <test name="Current Weather Report Testing">
+        <classes>
+            <class name="com.sam.testClasses.ApiTest">
+                <methods>
+                    <include name="testWeatherHappy" />
+                    <include name="testWeatherSad" />
+<!--                    <include name="testWeatherBad" />-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
